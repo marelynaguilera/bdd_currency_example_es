@@ -9,7 +9,7 @@ Característica: Comprar moneda extranjera
     Dado Estoy en la pagina Comprar Moneda Extranjera
     Y Selecciono la moneda "<moneda>" 
     Cuando Trato de calcular el costo de conversion de "<montoUSD>" USD 
-    Entonces Veo el munto de conversion de "<montoUSD>" USD a "<moneda>" 
+    Entonces Veo el monto de conversion de "<montoUSD>" USD a "<moneda>" 
 
     Ejemplos:
     | moneda  | montoUSD  | 

@@ -29,7 +29,7 @@ When(
 );
 
 Then(
-  /^Veo el munto de conversion de "(.*)" USD a "(.*)"$/,
+  /^Veo el monto de conversion de "(.*)" USD a "(.*)"$/,
   async (usdAmount, currencyType) => {
     const conversionAmount = ` (${currencyType}) = ${usdAmount}.00 U.S. dollar (USD)`;
     await expect(PayPage.labelConversionAmount).toBeExisting();
