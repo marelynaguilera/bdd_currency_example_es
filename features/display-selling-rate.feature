@@ -2,7 +2,7 @@
 
 Característica: Comprar moneda extranjera
 
-#As a user, I want to purchase foreign currencies to be able to take local money with me when I travel
+#Como usuario quiero poder comprar moneda extranjera para poder llevar dinero local conmigo cuando viaje
 
   Esquema del escenario: Mostrando el precio de venta
 
